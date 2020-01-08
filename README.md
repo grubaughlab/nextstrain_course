@@ -18,7 +18,7 @@ Creating, Moving and Deleting | Navigating directories | Checking content
 ------------ | ------------- | -------------
 **mkdir** folderX → *create folderX* | **cd** folderX → *move into folderX* | **ls** → *list files and folders*
 **mv** → *move files/folder from/to another directory* | **cd ..** → *go back to previous folder* | **head** → *see the first 10 lines of a file*
-**rm** → *remove files/folders* | **pwd** → *check you current directory* | **tail** → *see the last 10 lines of a file*
+**rm** → *delete files/folders from a directory* | **pwd** → *check you current directory* | **tail** → *see the last 10 lines of a file*
 
 ### 3. Installing nextstrain
 
