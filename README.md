@@ -1,6 +1,8 @@
 # Nextstrain course
 
-This repository contains the essential files for creating a [nextstrain build](https://nextstrain.org/) for running and visualizing phylogeographic analyses of pathogen spread using genomic data. Keep the **Author** and **License** sections, and edit this README file to create a description of your project using the [GitHub Markdown](https://guides.github.com/features/mastering-markdown/), with topics and subtopics.
+This repository contains the essential files for creating a [nextstrain build](https://nextstrain.org/) for running and visualizing phylogeographic analyses of pathogen spread using genomic data.
+
+Keep the **Author** and **License** sections, and edit the rest of this README file as you wish, creating a description of your project using the [GitHub Markdown](https://guides.github.com/features/mastering-markdown/), with topics and subtopics.
 
 ## Getting started
 
