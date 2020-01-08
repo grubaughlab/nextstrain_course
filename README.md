@@ -8,7 +8,7 @@ Keep the **Author** and **License** sections, and edit the rest of this README f
 
 ### 1. For windows users
 
-Native Linux and Mac Users are all set, and can move on to step #2. Windows users, however, must install a Linux subsystem before being able to install nextstrain. Access [this link](https://nextstrain.org/docs/getting-started/windows-help) for a step-by-step guide about how to [setup Linux on Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (please choose 'Ubuntu 18.04 LTS'), and how to launch Linux and [create a user account and password](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro) on command line.
+Native Linux and Mac Users are all set, and can move on to step #2. Windows users, however, must install a Linux subsystem before being able to install nextstrain. Visit [this website](https://nextstrain.org/docs/getting-started/windows-help) and follow its step-by-step guide about how to [setup Linux on Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10) (please choose 'Ubuntu 18.04 LTS'), and how to launch Linux and [create a user account and password](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro) on command line.
 
 ### 2. Learning basic UNIX commands
 
