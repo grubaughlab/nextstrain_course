@@ -22,7 +22,7 @@ Creating, Moving and Deleting | Navigating directories | Checking content
 
 ### Installing nextstrain
 
-Refer to the [installation guidelines](https://github.com/grubaughlab/nextstrain_course/blob/master/nextstrain_installation.pdf) available in this repository to install nextstrain. That document provides instructions on how to install `augur` (bioinformatics pipeline) and `auspice` (visualization tool). For more information concerning installation, visit this [nextstrain page](https://nextstrain.org/docs/getting-started/local-installation) for
+[Click here](https://github.com/grubaughlab/nextstrain_course/blob/master/nextstrain_installation.pdf) to download the guidelines to install nextstrain. That document provides instructions on how to install `augur` (bioinformatics pipeline) and `auspice` (visualization tool). For more information concerning installation, visit this [nextstrain page](https://nextstrain.org/docs/getting-started/local-installation) for
 
 
 ### Creating a nextstrain build
