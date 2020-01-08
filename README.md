@@ -30,7 +30,7 @@ Creating, Moving and Deleting | Navigating directories | Checking content
 
 ## Author
 
-* **Add your name here** - [WebPage](https://github.io/) - username@email.com
+* **Anderson Brito & Grubaugh Lab** - [WebPage](grubaughlab.com) - grubaughlab@gmail.com
 
 ## License
 
