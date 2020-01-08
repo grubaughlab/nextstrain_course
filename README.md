@@ -14,10 +14,11 @@ Native Linux and Mac Users are all set, and can move on to the next step below. 
 
 Familiarize yourself with basic UNIX commands for navigating and managing files and folders in a command line interface (Terminal). In this environment you can perform all simple tasks you usually do using mouse clicks: copy, move, delete, access, and create files and folders. All you need to do is to type a few commands. Below you can find the main commands required to operate in a Terminal. Please access [this page](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/) to learn a few more commands. Please practice their use before the class, so that you are able to navigate and manage files and folders in command line interfaces.
 
+Creating, Moving and Deleting | Navigating directories ("folders") | Checking content
 ------------ | ------------- | -------------
-ls → list files and folders | mkdir folderX → create folderX | cd folderX → move into folderX
-rm → remove files/folders | cd ../ → go back to previous folder | mv → move files/folder to another place
-pwd → check you current directory | head → see the first 10 lines of a file | head → see the last 10 lines of a file
+mkdir folderX → create folderX | cd folderX → move into folderX | ls → list files and folders
+mv → move files/folder to another place | cd ../ → go back to previous folder | head → see the first 10 lines of a file
+rm → remove files/folders | pwd → check you current directory | tail → see the last 10 lines of a file
 
 ### Installing nextstrain
 
