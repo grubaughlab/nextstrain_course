@@ -26,7 +26,7 @@ Creating, Moving and Deleting | Navigating directories | Checking content
 
 
 ### Creating a nextstrain build
-[Click here](https://github.com/andersonbrito/nextstrain_course/raw/master/nextstrain_tutorial.pdf) to download the course handout with a step-by-step tutorial on how to prepare your working directory (files and folders), run `augur`, and visualize the results with `auspice`. Please check [this webiste](https://neherlab.org/201910_RIVM_nextstrain.html) for more information about the distinct functionalities of nextstrain.
+[Click here](https://github.com/grubaughlab/nextstrain_course/blob/master/nextstrain_tutorial.pdf) to download the course handout with a step-by-step tutorial on how to prepare your working directory (files and folders), run `augur`, and visualize the results with `auspice`. Please check [this webiste](https://neherlab.org/201910_RIVM_nextstrain.html) for more information about the distinct functionalities of nextstrain.
 
 ## Author
 
