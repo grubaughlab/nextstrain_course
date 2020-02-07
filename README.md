@@ -30,7 +30,7 @@ Creating, Moving and Deleting | Navigating directories | Checking content
 
 ## Author
 
-* **Anderson Brito & Grubaugh Lab** - [grubaughlab.com](grubaughlab.com) - grubaughlab@gmail.com
+* **Anderson Brito & Grubaugh Lab** - [grubaughlab.com](www.grubaughlab.com) - grubaughlab@gmail.com
 
 ## License
 
