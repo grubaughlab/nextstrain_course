@@ -2,8 +2,8 @@
 
 rule all:
     input:
-        auspice_tree = "auspice/addHereYourProjectName_tree.json",
-        auspice_meta = "auspice/addHereYourProjectName_meta.json"
+        auspice = "auspice/addHereYourProjectName.json"
+
 input_fasta = "data/sequences.fasta",
 input_metadata = "data/metadata.tsv",
 reference = "config/reference.gb",
@@ -134,7 +134,7 @@ rule ancestral:
         augur ancestral \
             --tree {input.tree} \
             --alignment {input.alignment} \
-            --output {output.node_data} \
+            --output-node-data {output.node_data} \
             --inference {params.inference}
         """
 
@@ -195,19 +195,17 @@ rule export:
         lat_longs = lat_longs,
         auspice_config = auspice_config
     output:
-        auspice_tree = rules.all.input.auspice_tree,
-        auspice_meta = rules.all.input.auspice_meta
+        auspice = rules.all.input.auspice
     shell:
         """
-        augur export v1 \
+        augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
             --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --auspice-config {input.auspice_config} \
-            --output-tree {output.auspice_tree} \
-            --output-meta {output.auspice_meta}
+            --output {output.auspice}
         """
 
 

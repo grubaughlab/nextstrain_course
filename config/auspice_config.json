@@ -1,25 +1,40 @@
+
 {
   "title": "Add your project title here",
-  "color_options": {
-    "num_date": {"menuItem": "date", "legendTitle": "Sampling date", "type": "continuous"},
-    "country": {"legendTitle":"Country", "type":"discrete"},
-    "state": {"legendTitle":"State", "menuItem":"state", "type":"discrete"}
+  "build_url": "Add your github link repository here",
+  "maintainers": [
+    {"name": "Add your name here",
+     "url": "Add your personal website"}
+  ],
+  "colorings": [
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "state",
+      "title": "State",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "state",
+    "country"
+  ],
+  "display_defaults": {
+    "color_by": "state",
+    "distance_measure": "num_date",
+    "geo_resolution": "state",
+    "map_triplicate": true
   },
-  "geo": [
-    "country",
-    "state"
-  ],
-  "maintainer": [
-    "Add your name here",
-    "Add your github link repository here"
-  ],
   "filters": [
-    "country",
-    "state"
+    "state",
+    "country"
   ],
-  "defaults": {
-   "colorBy": "state",
-   "mapTriplicate": false,
-   "geoResolution": "state"
- }
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ]
 }
